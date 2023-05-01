@@ -1,0 +1,189 @@
+[
+	{
+		"title": "tomato",
+		"description": "500 gr",
+		"price": 5,
+		"thumbnail": "image1",
+		"code": "FJHGN",
+		"stock": 10,
+		"id": 1
+	},
+	{
+		"title": "queso",
+		"description": "500 gr",
+		"price": 5,
+		"thumbnail": "image1",
+		"code": "FJHGN",
+		"stock": 10,
+		"id": 3
+	},
+	{
+		"title": "cheese",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 10
+	},
+	{
+		"title": "doritos",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 12
+	},
+	{
+		"title": "sponge",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 14
+	},
+	{
+		"title": "book",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 15
+	},
+	{
+		"title": "termo",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 16
+	},
+	{
+		"title": "agua",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 17
+	},
+	{
+		"title": "alcohol",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 31
+	},
+	{
+		"title": "maní",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 32
+	},
+	{
+		"title": "yogurt",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 33
+	},
+	{
+		"title": "vino",
+		"description": "500 gr",
+		"code": "ASGHDG",
+		"price": "50",
+		"status": "true",
+		"stock": "5",
+		"category": "Food",
+		"thumbnails": [],
+		"id": 34
+	},
+	{
+		"title": "balón",
+		"description": "balón de caucho",
+		"code": "ASGHDG",
+		"price": "100",
+		"status": "true",
+		"stock": "20",
+		"category": "Sports",
+		"thumbnails": [],
+		"id": 35
+	},
+	{
+		"title": "pesas",
+		"description": "balón de caucho",
+		"code": "ASGHDG",
+		"price": "100",
+		"status": "true",
+		"stock": "20",
+		"category": "Sports",
+		"thumbnails": [
+			"http://localhost:8080/images/1679002899000-5e7337fab5b81bfb03b8ae7225605a67.jpg",
+			"http://localhost:8080/images/1679002899002-bd9a9c6b74f7d51b35da4397a1a5cc79.gif",
+			"http://localhost:8080/images/1679002899012-FB_IMG_1597176180520-1.jpg"
+		],
+		"id": 36
+	},
+	{
+		"title": "spoon",
+		"description": "one spoon",
+		"code": "ASGHDG",
+		"price": "250",
+		"status": "true",
+		"stock": "20",
+		"category": "Cuttery",
+		"thumbnails": [],
+		"id": 37
+	},
+	{
+		"title": "fork",
+		"description": "one fors",
+		"code": "ASGHDG",
+		"price": "250",
+		"status": "true",
+		"stock": "20",
+		"category": "Cuttery",
+		"thumbnails": [],
+		"id": 38
+	},
+	{
+		"title": "knife",
+		"description": "one knife",
+		"code": "ASGHDG",
+		"price": "250",
+		"status": "true",
+		"stock": "20",
+		"category": "Cuttery",
+		"thumbnails": [],
+		"id": 39
+	}
+]

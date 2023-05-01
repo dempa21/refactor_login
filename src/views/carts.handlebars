@@ -1,0 +1,59 @@
+{{!-- <div>
+  {{#each products}}
+    <div class="gallery" id="products">
+      {{#each thumbnails}}
+        <img src="{{this}}" alt="" />
+      {{/each}}
+      <h2>{{this.title}}</h2>
+      <p>{{this.description}}</p>
+    </div>
+  {{/each}}
+</div> --}}
+
+<html>
+<head>
+    <title></title>
+        <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div>
+  <h1>Bienvenido {{user.name}}</h1>
+  <h1>Tu perfil (sin datos sensibles)</h1>
+  <p>Nombre: {{user.name}}</p>
+  <p>E-mail: {{user.email}}</p>
+  <p>Edad: {{user.age}}</p>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    {{#each carts}}
+    <div class="gallery-home">
+      <div class="card" style="width: 18rem;">
+        {{!-- <img src="{{this.thumbnails.[0]}}" class="card-img-top" alt="..." /> --}}
+        <div class="card-body">
+          <h5 class="card-title">{{this._id}}</h5>
+          {{!-- <p class="card-text">{{this.products.product}}</p>
+          <p class="card-text">{{this.products.quantity}}</p> --}}
+          <p class="card-text">{{this.products}}</p>
+          <div class="card" style="width: 18rem;">
+             {{#each carts.products}}
+             <h5 class="card-title">{{this.product}}</h5>
+             <p class="card-text">{{this.quantity}}</p>
+             <p class="card-text">{{this._id}}</p>
+            </div>
+             {{/each}}
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
+
+
+    <a href="/carts2"><button>Siguiente</button></a>
+
+
+
+
+</body>
+</html>
